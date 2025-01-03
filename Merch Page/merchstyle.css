@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid rgba(255, 254, 254, 0.05);
+}
+
+.blog-heading {
+    text-align: center;
+}
+
+.blog-heading span {
+    color: coral;
+}
+
+.blog-heading h1 {
+    font-size: 3.2rem;
+    color: #fff6f6;
+    font-weight: 600;
+}
+
+.highlight {
+    color: rgb(254, 165, 31);
+}
+
+.blog-heading h3 {
+    font-size: 2.4rem;
+    color: #e8e6e6;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-box {
+    width: 350px;
+    background-color: #000203;
+    border: 1px solid #f3eeee;
+}
+
+.blog-img {
+    text-align: center;
+    padding: 10px;
+}
+
+.blog-text {
+    padding: 20px;
+    color: #fff;
+}
+
+.blog-text span {
+    color: #f33c32;
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #d6d1d1;
+}
+
+.blog-text .blog-title:hover {
+    color: #f33c32;
+    transition: color 0.3s ease;
+}
+
+.blog-text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0;
+}
+
+.blog-text a {
+    color: #e37676;
+}
+
+.blog-text a:hover {
+    color: #f33c32;
+    transition: color 0.3s ease;
+}
